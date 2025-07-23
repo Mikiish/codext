@@ -1,0 +1,12 @@
+codex_project/                      # Racine du projet
+├── orchestrator/                   # Module Orchestrateur (coordination générale)
+│ └── orchestrator_agent.py         # Définit l'agent orchestrateur ou la logique de pilotage
+├── planner/                        # Module Planification (Architecte/Manager de tâches)
+│ ├── task_planner_agent.py         # Agent de planification qui décompose les demandes
+│ └── embed_util.py                 # Outil de recherche par embeddings (contexte rapide)
+├── coder/                          # Module Codeur(s) (génération de code)
+│ └── code_generator_agent.py       # Agent(s) codeur utilisant GPT-4.1 pour produire le code
+├── utils/                          # Utilitaires communs (configuration, modèles, etc.)
+│ ├── model_config.py               # Config des modèles (ex : choix de "o4-mini", GPT-4.1...)
+│ └── openai_client.py              # Initialisation du SDK OpenAI Agents (clésAPI, Runner)
+└── main.py                         # Script principal lançant l'orchestration multi-agents
