@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import PrimeMutationFilter as pmf
-import primes.Prime.simple.spectral as spectral
+import simple.spectral as spectral
 import newgptint
 import tempfile
 from scipy.stats import linregress

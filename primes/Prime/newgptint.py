@@ -113,6 +113,6 @@ if __name__ == "__main__":
     # Recherche des nombres premiers respectant la condition avec exécution parallèle
     n_magique = int(math.pow(16, 4))
     n_magique_plus = int(math.pow(16, 8))
-    df_result = find_prime_cycles(n_magique, n_magique_plus, 1024, 10 ** 8)
+    df_result = find_prime_cycles(n_magique, n_magique_plus, 1024, 10 ** 9)
     print("\nNombres premiers trouvés respectant la condition :")
     print(df_result)
