@@ -16,4 +16,5 @@ Usage:
 ```bash
 ./lispenv.sh            # once, to install SBCL/Quicklisp
 source ./setup-auth.sh  # generate keys and export variables
+source ./puzzle.sh      # requires DO_API_TOKEN and CODEX_PUB_KEY
 ```
