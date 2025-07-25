@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",        // C/C++
+    "rust-lang.rust-analyzer",   // Rust
+    "julialang.language-julia",  // Julia
+    "tomoki1207.pdf",            // PDF Viewer
+    "ms-python.python",          // Python
+    "ms-toolsai.jupyter"         // Jupyter Notebooks
+  ]
+}
