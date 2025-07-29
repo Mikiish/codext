@@ -2,3 +2,15 @@ codex
 codex/
 openai-agents-python
 openai-agents-python/
+.clinerules
+.clinerules/
+*.pyc
+__pycache__/
+*.pyo   
+*.pyd
+.Python
+db.sqlite3
+.env
+.env.*
+*.env
+*.log
