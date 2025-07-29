@@ -2,6 +2,8 @@ codex
 codex/
 openai-agents-python
 openai-agents-python/
+cline
+cline/
 .clinerules
 .clinerules/
 *.pyc
